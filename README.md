@@ -1,12 +1,12 @@
-NOTE: currently updating unit tests to accommodate significant changes.
+# Notes
 
-Play at https://letterboxd-guessing-game.up.railway.app/
+- Currently updating unit tests to accommodate significant changes.
+- The Letterboxd API is not publicly accessible (see letterboxd.com/api-beta/), so a web scraper scrapes Letterboxd pages for film data and stores them in a database.
+- The scraper can be found at https://github.com/fs7fyqy553/letterboxd-scraper
+- The backend is set up to regularly update the database but the updater isn't deployed yet for cost reasons
+- The backend also contains an API which is currently used to serve film data to the frontend web game.
 
-Game in each round of which the player must guess which of two films is more highly rated on the review site letterboxd.com.
-
-The Letterboxd API is not publicly accessible (see letterboxd.com/api-beta/), so a web scraper scrapes Letterboxd pages for film data and stores them in a database. The scraper is written in TypeScript and can be found at https://github.com/JamesGJ5/letterboxd-list-scraper. The backend is set up to regularly update the database but the updater isn't deployed yet for cost reasons. The backend also contains an API which is currently used to serve film data to the frontend web game.
-
-Tools:
+# Tools
 
 - Frontend:
 
