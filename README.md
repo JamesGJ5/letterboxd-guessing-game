@@ -10,7 +10,7 @@
 
 - Frontend:
 
-    - Written in TypeScript within React and NextJS
+    - Written in TypeScript (whose use over JavaScript is a bit inconsequential) within React and NextJS
     - WCAG Level A accessibility
     - Responsive design using Vanilla CSS and Material UI
     - Tested using the React Testing Library in Jest
