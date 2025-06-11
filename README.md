@@ -18,7 +18,7 @@
 
 - Backend:
 
-    - Written in TypeScript withing NodeJS and Express
+    - Written in TypeScript withing NodeJS and Express (the Express server is a bit redundant now that NextJS has been incorporated)
     - Accessible using a REST API with authentication
     - Uses a MongoDB database
     - Tested using MongoDB In-Memory Server and Supertest in Jest
