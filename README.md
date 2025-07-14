@@ -5,6 +5,7 @@
 - The scraper can be found at https://github.com/fs7fyqy553/letterboxd-scraper
 - The backend is set up to regularly update the database but the updater isn't deployed yet for cost reasons
 - The backend also contains an API which is currently used to serve film data to the frontend web game.
+- There are two servers (one in backend/ and another in frontend/) which is a bit redundant since I don't intend to use the Express server anywhere else.
 
 # Tools
 
